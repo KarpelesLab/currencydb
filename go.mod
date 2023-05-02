@@ -1,3 +1,3 @@
-module github.com/Karpeleslab/currencydb
+module github.com/KarpelesLab/currencydb
 
 go 1.19
