@@ -1,0 +1,25 @@
+package currencydb
+
+var All = map[string]*Currency{
+	"EUR": EUR,
+	"AUD": AUD,
+	"BRL": BRL,
+	"CAD": CAD,
+	"CHF": CHF,
+	"CNY": CNY,
+	"CZK": CZK,
+	"DKK": DKK,
+	"GBP": GBP,
+	"HKD": HKD,
+	"INR": INR,
+	"JPY": JPY,
+	"KRW": KRW,
+	"NOK": NOK,
+	"NZD": NZD,
+	"PLN": PLN,
+	"RUB": RUB,
+	"SEK": SEK,
+	"SGD": SGD,
+	"THB": THB,
+	"USD": USD,
+}
