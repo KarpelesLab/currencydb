@@ -2,7 +2,7 @@ package currencydb
 
 var BOV = &Currency{
 	ISO:            "BOV",
-	Type:           Main,
+	Type:           Other,
 	Country:        "BO",
 	Countries:      []string{"BO"},
 	Name:           "FUNDS CODE MVDOL",

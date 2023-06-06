@@ -2,7 +2,7 @@ package currencydb
 
 var VED = &Currency{
 	ISO:            "VED",
-	Type:           Main,
+	Type:           Digital,
 	Country:        "VE",
 	Countries:      []string{"VE"},
 	Name:           "BOLIVAR  SOBERANO",

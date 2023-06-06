@@ -6,6 +6,9 @@ const (
 	InvalidType Type = iota
 	Main
 	PreciousMetal
+	Retired
+	Digital
+	Private
 	Other
 )
 

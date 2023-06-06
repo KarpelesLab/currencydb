@@ -2,7 +2,7 @@ package currencydb
 
 var CHE = &Currency{
 	ISO:            "CHE",
-	Type:           Main,
+	Type:           Private,
 	Country:        "CH",
 	Countries:      []string{"CH"},
 	Name:           "WIR EURO",

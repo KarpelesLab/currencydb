@@ -20,9 +20,15 @@ func main() {
 			continue
 		}
 		if cur.Countries == nil && cur.Country != "" {
+			if fnd, ok := countryList[cur.Country]; ok {
+				log.Printf("CONFLICT: country %s got currencies %s and %s", cur.Country, fnd.ISO, cur.ISO)
+			}
 			countryList[cur.Country] = cur
 		} else {
 			for _, cc := range cur.Countries {
+				if fnd, ok := countryList[cc]; ok {
+					log.Printf("CONFLICT: country %s got currencies %s and %s", cc, fnd.ISO, cur.ISO)
+				}
 				countryList[cc] = cur
 			}
 		}

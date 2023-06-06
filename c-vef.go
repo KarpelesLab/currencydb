@@ -2,7 +2,7 @@ package currencydb
 
 var VEF = &Currency{
 	ISO:            "VEF",
-	Type:           Main,
+	Type:           Retired,
 	Country:        "VE",
 	Countries:      []string{"VE"},
 	Name:           "BOLIVAR",
