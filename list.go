@@ -6,6 +6,7 @@ var All = map[string]*Currency{
 	"AFN": AFN,
 	"ALL": ALL,
 	"AUD": AUD,
+	"BGN": BGN,
 	"BRL": BRL,
 	"CAD": CAD,
 	"CHF": CHF,

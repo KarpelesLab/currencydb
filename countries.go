@@ -12,6 +12,7 @@ var Country = map[string]*Currency{
 	"AU": AUD,
 	"AX": EUR,
 	"BE": EUR,
+	"BG": BGN,
 	"BL": EUR,
 	"BQ": USD,
 	"BR": BRL,
