@@ -2,7 +2,7 @@ package currencydb
 
 var CUC = &Currency{
 	ISO:            "CUC",
-	Type:           Main,
+	Type:           Other,
 	Country:        "CU",
 	Countries:      []string{"CU"},
 	Name:           "PESO CONVERTIBLE",

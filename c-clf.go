@@ -2,7 +2,7 @@ package currencydb
 
 var CLF = &Currency{
 	ISO:            "CLF",
-	Type:           Main,
+	Type:           Other,
 	Country:        "CL",
 	Countries:      []string{"CL"},
 	Name:           "FUNDS CODE UNIDADES DE FOMENTO",

@@ -2,7 +2,7 @@ package currencydb
 
 var SLL = &Currency{
 	ISO:            "SLL",
-	Type:           Main,
+	Type:           Retired,
 	Country:        "SL",
 	Countries:      []string{"SL"},
 	Name:           "LEONE (OLD)",

@@ -2,7 +2,7 @@ package currencydb
 
 var UYW = &Currency{
 	ISO:            "UYW",
-	Type:           Main,
+	Type:           Other,
 	Country:        "UY",
 	Countries:      []string{"UY"},
 	Name:           "UNIDAD PREVISIONAL",

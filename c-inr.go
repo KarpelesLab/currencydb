@@ -4,7 +4,7 @@ var INR = &Currency{
 	ISO:            "INR",
 	Type:           Main,
 	Country:        "IN",
-	Countries:      []string{"BT", "IN"},
+	Countries:      []string{"IN"},
 	Name:           "Ruppee",
 	Symbol:         "INR",
 	Decimals:       2,

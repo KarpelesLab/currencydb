@@ -2,7 +2,7 @@ package currencydb
 
 var USN = &Currency{
 	ISO:            "USN",
-	Type:           Main,
+	Type:           Other,
 	Country:        "US",
 	Countries:      []string{"US"},
 	Name:           "US DOLLAR, NEXT DAY FUNDS",

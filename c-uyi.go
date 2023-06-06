@@ -2,7 +2,7 @@ package currencydb
 
 var UYI = &Currency{
 	ISO:            "UYI",
-	Type:           Main,
+	Type:           Other,
 	Country:        "UY",
 	Countries:      []string{"UY"},
 	Name:           "URUGUAY PESO EN UNDIDADES INDEXADAS",

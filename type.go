@@ -33,5 +33,6 @@ type Currency struct {
 	Name           string
 	Symbol         string
 	Decimals       int
-	SymbolPosition Position // Before or After
+	SymbolPosition Position  // Before or After
+	Equivalent     *Currency // if pegged to another currency
 }

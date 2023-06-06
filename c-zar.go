@@ -3,8 +3,8 @@ package currencydb
 var ZAR = &Currency{
 	ISO:            "ZAR",
 	Type:           Main,
-	Country:        "LS",
-	Countries:      []string{"LS", "NA", "ZA"},
+	Country:        "ZA",
+	Countries:      []string{"ZA"},
 	Name:           "RAND",
 	Symbol:         "ZAR",
 	Decimals:       2,

@@ -2,7 +2,7 @@ package currencydb
 
 var COU = &Currency{
 	ISO:            "COU",
-	Type:           Main,
+	Type:           Other,
 	Country:        "CO",
 	Countries:      []string{"CO"},
 	Name:           "UNIDAD DE VALOR REAL (FUNDS)",

@@ -1,5 +1,7 @@
 package currencydb
 
+// The PAB is pegged at 1:1 to the U.S. dollar
+
 var PAB = &Currency{
 	ISO:            "PAB",
 	Type:           Main,
@@ -9,4 +11,5 @@ var PAB = &Currency{
 	Symbol:         "PAB",
 	Decimals:       2,
 	SymbolPosition: After,
+	Equivalent:     USD,
 }

@@ -2,7 +2,7 @@ package currencydb
 
 var MXV = &Currency{
 	ISO:            "MXV",
-	Type:           Main,
+	Type:           Other,
 	Country:        "MX",
 	Countries:      []string{"MX"},
 	Name:           "MEXICAN UNIDAD DE INVERSION (UDI)(FUNDS)",
