@@ -7,9 +7,9 @@ var PAB = &Currency{
 	Type:           Main,
 	Country:        "PA",
 	Countries:      []string{"PA"},
-	Name:           "BALBOA",
-	Symbol:         "PAB",
+	Name:           "Balboa",
+	Symbol:         "B/.",
 	Decimals:       2,
-	SymbolPosition: After,
+	SymbolPosition: Before,
 	Equivalent:     USD,
 }
