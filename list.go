@@ -7,6 +7,7 @@ var All = map[string]*Currency{
 	"BRL": BRL,
 	"CAD": CAD,
 	"CHF": CHF,
+	"CLP": CLP,
 	"CNY": CNY,
 	"CZK": CZK,
 	"DKK": DKK,
