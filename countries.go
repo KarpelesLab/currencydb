@@ -6,6 +6,7 @@ var Country = map[string]*Currency{
 	"AD": EUR,
 	"AE": AED,
 	"AF": AFN,
+	"AL": ALL,
 	"AS": USD,
 	"AT": EUR,
 	"AU": AUD,

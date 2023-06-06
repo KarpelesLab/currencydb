@@ -4,6 +4,7 @@ var All = map[string]*Currency{
 	"EUR": EUR,
 	"AED": AED,
 	"AFN": AFN,
+	"ALL": ALL,
 	"AUD": AUD,
 	"BRL": BRL,
 	"CAD": CAD,
