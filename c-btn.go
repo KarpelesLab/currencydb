@@ -7,7 +7,7 @@ var BTN = &Currency{
 	Type:           Main,
 	Country:        "BT",
 	Countries:      []string{"BT"},
-	Name:           "NGULTRUM",
+	Name:           "Ngultrum",
 	Symbol:         "Nu.",
 	Decimals:       2,
 	SymbolPosition: Before,
