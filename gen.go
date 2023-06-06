@@ -16,6 +16,9 @@ func main() {
 	countryList := make(map[string]*currencydb.Currency)
 
 	for _, cur := range currencydb.All {
+		if cur.Type != currencydb.Main {
+			continue
+		}
 		if cur.Countries == nil && cur.Country != "" {
 			countryList[cur.Country] = cur
 		} else {

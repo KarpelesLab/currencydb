@@ -2,6 +2,7 @@ package currencydb
 
 var JPY = &Currency{
 	ISO:            "JPY",
+	Type:           Main,
 	Country:        "JP",
 	Name:           "Japanese Yen",
 	Symbol:         "¥",

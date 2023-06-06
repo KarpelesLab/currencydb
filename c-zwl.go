@@ -2,6 +2,7 @@ package currencydb
 
 var ZWL = &Currency{
 	ISO:            "ZWL",
+	Type:           Main,
 	Country:        "ZW",
 	Name:           "Zimbabwe Dollar",
 	Symbol:         "ZW$",

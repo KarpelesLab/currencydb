@@ -2,6 +2,7 @@ package currencydb
 
 var AED = &Currency{
 	ISO:            "AED",
+	Type:           Main,
 	Country:        "AE",
 	Name:           "UAE Dirham",
 	Symbol:         "د.إ",

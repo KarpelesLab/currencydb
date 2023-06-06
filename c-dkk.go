@@ -2,6 +2,7 @@ package currencydb
 
 var DKK = &Currency{
 	ISO:            "DKK",
+	Type:           Main,
 	Country:        "DK",
 	Countries:      []string{"DK", "FO", "GL"},
 	Name:           "Danish kroner",
