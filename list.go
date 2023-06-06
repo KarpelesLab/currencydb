@@ -3,6 +3,7 @@ package currencydb
 var All = map[string]*Currency{
 	"EUR": EUR,
 	"AED": AED,
+	"AFN": AFN,
 	"AUD": AUD,
 	"BRL": BRL,
 	"CAD": CAD,
