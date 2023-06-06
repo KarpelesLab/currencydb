@@ -19,6 +19,7 @@ var All = map[string]*Currency{
 	"ILS": ILS,
 	"INR": INR,
 	"JPY": JPY,
+	"KPW": KPW,
 	"KRW": KRW,
 	"NOK": NOK,
 	"NZD": NZD,

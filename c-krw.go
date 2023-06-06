@@ -5,6 +5,6 @@ var KRW = &Currency{
 	Country:        "KR",
 	Name:           "South Korean won",
 	Symbol:         "₩",
-	Decimals:       2,
+	Decimals:       0,
 	SymbolPosition: Before,
 }
