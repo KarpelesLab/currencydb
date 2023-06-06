@@ -101,4 +101,5 @@ var Country = map[string]*Currency{
 	"XK": EUR,
 	"XZ": CZK,
 	"YT": EUR,
+	"ZW": ZWL,
 }

@@ -29,4 +29,5 @@ var All = map[string]*Currency{
 	"SGD": SGD,
 	"THB": THB,
 	"USD": USD,
+	"ZWL": ZWL,
 }
