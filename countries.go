@@ -51,6 +51,7 @@ var Country = map[string]*Currency{
 	"IT": EUR,
 	"JP": JPY,
 	"KI": AUD,
+	"KP": KPW,
 	"KR": KRW,
 	"LI": CHF,
 	"LT": EUR,
