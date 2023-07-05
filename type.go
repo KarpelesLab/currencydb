@@ -47,6 +47,7 @@ type Currency struct {
 	unitSet        bool
 }
 
+// Unit returns the text/currency object for this currency
 func (c *Currency) Unit() currency.Unit {
 	if c.unitSet {
 		return c.unit
