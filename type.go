@@ -47,7 +47,7 @@ type Currency struct {
 	unitSet        bool
 }
 
-func (c *Currency) GetUnit() currency.Unit {
+func (c *Currency) Unit() currency.Unit {
 	if c.unitSet {
 		return c.unit
 	}
