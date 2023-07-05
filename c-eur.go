@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var EUR = &Currency{
 	ISO:            "EUR", // not a real country
 	Type:           Main,
@@ -9,4 +11,6 @@ var EUR = &Currency{
 	Symbol:         "€",
 	Decimals:       2,
 	SymbolPosition: After,
+	unit:           currency.EUR,
+	unitSet:        true,
 }

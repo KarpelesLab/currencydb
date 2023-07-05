@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var PLN = &Currency{
 	ISO:            "PLN",
 	Type:           Main,
@@ -8,4 +10,6 @@ var PLN = &Currency{
 	Symbol:         "zł",
 	Decimals:       2,
 	SymbolPosition: After,
+	unit:           currency.PLN,
+	unitSet:        true,
 }

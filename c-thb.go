@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var THB = &Currency{
 	ISO:            "THB",
 	Type:           Main,
@@ -8,4 +10,6 @@ var THB = &Currency{
 	Symbol:         "฿",
 	Decimals:       2,
 	SymbolPosition: Before,
+	unit:           currency.THB,
+	unitSet:        true,
 }

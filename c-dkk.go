@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var DKK = &Currency{
 	ISO:            "DKK",
 	Type:           Main,
@@ -9,4 +11,6 @@ var DKK = &Currency{
 	Symbol:         "Kr",
 	Decimals:       2,
 	SymbolPosition: After,
+	unit:           currency.DKK,
+	unitSet:        true,
 }

@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var MXN = &Currency{
 	ISO:            "MXN",
 	Type:           Main,
@@ -9,4 +11,6 @@ var MXN = &Currency{
 	Symbol:         "MXN",
 	Decimals:       2,
 	SymbolPosition: After,
+	unit:           currency.MXN,
+	unitSet:        true,
 }

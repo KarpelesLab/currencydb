@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var NZD = &Currency{
 	ISO:            "NZD",
 	Type:           Main,
@@ -9,4 +11,6 @@ var NZD = &Currency{
 	Symbol:         "NZ$",
 	Decimals:       2,
 	SymbolPosition: Before,
+	unit:           currency.NZD,
+	unitSet:        true,
 }

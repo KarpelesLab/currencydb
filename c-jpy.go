@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var JPY = &Currency{
 	ISO:            "JPY",
 	Type:           Main,
@@ -8,4 +10,6 @@ var JPY = &Currency{
 	Symbol:         "¥",
 	Decimals:       0,
 	SymbolPosition: Before,
+	unit:           currency.JPY,
+	unitSet:        true,
 }

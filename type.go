@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 type Type int
 
 const (
@@ -18,6 +20,12 @@ func (t Type) String() string {
 		return "Main"
 	case PreciousMetal:
 		return "PreciousMetal"
+	case Retired:
+		return "Retired"
+	case Digital:
+		return "Digital"
+	case Private:
+		return "Private"
 	case Other:
 		return "Other"
 	default:
@@ -35,4 +43,19 @@ type Currency struct {
 	Decimals       int
 	SymbolPosition Position  // Before or After
 	Equivalent     *Currency // if pegged to another currency
+	unit           currency.Unit
+	unitSet        bool
+}
+
+func (c *Currency) GetUnit() currency.Unit {
+	if c.unitSet {
+		return c.unit
+	}
+	i, err := currency.ParseISO(c.ISO)
+	if err != nil {
+		i = currency.XXX
+	}
+	c.unit = i
+	c.unitSet = true
+	return i
 }

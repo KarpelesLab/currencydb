@@ -176,6 +176,7 @@ var All = map[string]*Currency{
 	"XPF": XPF,
 	"XPT": XPT,
 	"XSU": XSU,
+	"XTS": XTS,
 	"XUA": XUA,
 	"XXX": XXX,
 	"YER": YER,

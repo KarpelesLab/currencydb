@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var RUB = &Currency{
 	ISO:            "RUB",
 	Type:           Main,
@@ -8,4 +10,6 @@ var RUB = &Currency{
 	Symbol:         "RUB",
 	Decimals:       2,
 	SymbolPosition: After,
+	unit:           currency.RUB,
+	unitSet:        true,
 }

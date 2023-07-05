@@ -1,12 +1,16 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var TWD = &Currency{
 	ISO:            "TWD",
 	Type:           Main,
 	Country:        "TW",
 	Countries:      []string{"TW"},
-	Name:           "NEW TAIWAN DOLLAR",
-	Symbol:         "TWD",
+	Name:           "New Taiwan Dollar",
+	Symbol:         "NT$",
 	Decimals:       2,
-	SymbolPosition: After,
+	SymbolPosition: Before,
+	unit:           currency.TWD,
+	unitSet:        true,
 }

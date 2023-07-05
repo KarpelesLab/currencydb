@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var AUD = &Currency{
 	ISO:            "AUD",
 	Type:           Main,
@@ -9,4 +11,6 @@ var AUD = &Currency{
 	Symbol:         "AU$",
 	Decimals:       2,
 	SymbolPosition: Before,
+	unit:           currency.AUD,
+	unitSet:        true,
 }

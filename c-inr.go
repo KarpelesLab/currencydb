@@ -1,5 +1,7 @@
 package currencydb
 
+import "golang.org/x/text/currency"
+
 var INR = &Currency{
 	ISO:            "INR",
 	Type:           Main,
@@ -9,4 +11,6 @@ var INR = &Currency{
 	Symbol:         "INR",
 	Decimals:       2,
 	SymbolPosition: After,
+	unit:           currency.INR,
+	unitSet:        true,
 }
